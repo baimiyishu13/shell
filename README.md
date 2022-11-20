@@ -6,3 +6,4 @@
 
 在脚本中，当在 Notepad++ 或 vi 中查看时，注释等会正确排列。这就是我用来编写 Shell 脚本的代码。
 
+batch_file_rename.sh    -   将一批文件重命名为新扩展名
