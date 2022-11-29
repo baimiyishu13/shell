@@ -1,18 +1,19 @@
 #!/bin/bash
 
-funct_spript_nfo(){
+funct_spript_info(){
 cat << EOF
-    # Script Name	:batch_file_rename.sh
-    # Author:
-    # Created					:20-November-2022
-    # Last Modified:
-    # Version					:1.0
+   # Script Name        :batch_file_rename.sh
+  # Author:
+  # Created                                     :20-November-2022
+  # Last Modified:
+  # Version                                     :1.0
 
-    # Modifications:
+  # Modifications:
 
-    # Description		:这会将所有文件从一个扩展名批量重命名为另一个扩展
-EOF	
+  # Description         :这会将所有文件从一个扩展名批量重命名为另一个扩展
+EOF
 }
+
 
 ################################
 #        开始程序/函数         #
@@ -48,7 +49,7 @@ funct_batch_rename()
 # 变量设置
 
 clear
-funct_spript_nfo
+funct_spript_info
 sleep 1
 echo -e "\e[1;32m正在执行 \e[0m"
 
